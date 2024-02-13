@@ -83,7 +83,7 @@
 		firmware_layer {
 			bindings = <
 	&trans   &trans   &trans   &trans   &trans   &trans                                            &bt BT0       &bt BT1       &bt BT2  &bt BT3  &bt BT4  &none 
-	&trans   &trans   &trans   &trans   &trans   &trans                                            &out OUT_BLE  &out OUT_USB  &none    &none    &none   &bootloader
+	&trans   &trans   &trans   &trans   &trans   &trans                                            &out OUT_BLE  &out OUT_USB  &none    &none    &trans   &bootloader
 	&trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
 	                           &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans   &trans   &bt BT_CLR
 			>;
